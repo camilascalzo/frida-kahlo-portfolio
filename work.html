@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ebbc098265.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Frida Kahlo</title>
+</head>
+<body>
+     <section id="work">
+         <div class="work-img-wrapper" id="work-img-1" onclick="openModal(0)">
+            <img class="work-img"  src="img/work-1_autorretrato-1940.jpg" alt="">
+         </div>
+         <div class="work-img-wrapper" id="work-img-2" onclick="openModal(1)" >
+             <img class="work-img" src="img/work-2_naturaleza-muerta-viva-la-vida-1954.jpg" alt="">
+         </div>
+         <div class="work-img-wrapper" id="work-img-3" onclick="openModal(2)">
+             <img class="work-img" src="img/work-3_moises-1945.jpg" alt="">
+         </div>
+         <div class="work-img-wrapper" id="work-img-4" onclick="openModal(3)">
+             <img class="work-img" src="img/work-4_autorretrato-1932.jpg" alt="">
+         </div>
+         <div class="work-img-wrapper" id="work-img-5" onclick="openModal(4)" >
+             <img class="work-img" src="img/work-5_alla-cuelga-mi-vestido-1933.jpg" alt="">
+         </div>
+         <div class="work-img-wrapper" id="work-img-6" onclick="openModal(5)" >
+             <img class="work-img" src="img/work-6.jpeg" alt="">
+         </div>
+         <div class="work-img-wrapper" id="work-img-7" onclick="openModal(6)">
+             <img  class="work-img" src="img/work-7_portrait-of-my-father-1951.jpg" alt="">
+         </div>
+         <div class="work-img-wrapper" id="work-img-8" onclick="openModal(7)">
+             <img  class="work-img" src="img/work-8_lo-que-el-agua-me-dio-1938.jpg" alt="">
+         </div>
+         <div class="work-img-wrapper" id="work-img-9" onclick="openModal(8)">
+             <img class="work-img"  src="img/work-9_raices-1943.jpg" alt="">
+         </div>
+         <div class="work-img-wrapper" id="work-img-10"onclick="openModal(9)">
+             <img class="work-img"  src="img/work-10_el-venado-herido-1946.jpg" alt="">
+         </div>
+    </section>
+
+   
+
+    <section id="modal">
+        <div class="modal">
+            <button id="modal-close"><i class="fas fa-times"></i></button>
+            
+        <div id="modal-img-wrapper">
+            <div class="modal-work-container">
+
+                <p class="caption">Autorretrato. 1940</p>
+                <img src="img/work-1_autorretrato-1940.jpg" alt="">
+            </div>
+            <div class="modal-work-container">
+                <p class="caption">Naturaleza Muerta: Viva la Vida. 1954</p>
+
+                <img src="img/work-2_naturaleza-muerta-viva-la-vida-1954.jpg" alt="">
+            </div>
+            <div class="modal-work-container">
+                <p class="caption">Moisés. 1945</p>
+
+                <img src="img/work-3_moises-1945.jpg" alt="">
+            </div>
+            <div class="modal-work-container">
+                <p class="caption">Autorretrato. 1932</p>
+
+                <img src="img/work-4_autorretrato-1932.jpg" alt="">
+            </div>
+            <div class="modal-work-container">
+                <p class="caption">Allá cuelga mi vestido. 1933</p>
+
+                <img src="img/work-5_alla-cuelga-mi-vestido-1933.jpg" alt="">
+            </div>
+            <div class="modal-work-container">
+                <p class="caption">Diego y Yo. 1949</p>
+
+                <img src="img/work-6.jpeg" alt="">
+            </div>
+            <div class="modal-work-container">
+                <p class="caption">Retrato de mi padre. 1951</p>
+
+                <img src="img/work-7_portrait-of-my-father-1951.jpg" alt="">
+            </div>
+            <div class="modal-work-container">
+                <p class="caption">Lo que el agua me dio. 1938</p>
+
+                <img src="img/work-8_lo-que-el-agua-me-dio-1938.jpg" alt="">
+            </div>
+            <div class="modal-work-container">
+                <p class="caption">Raíces. 1943</p>
+
+                <img src="img/work-9_raices-1943.jpg" alt="">
+            </div>
+            <div class="modal-work-container">
+                <p class="caption">El venado herido. 1946</p>
+
+                <img src="img/work-10_el-venado-herido-1946.jpg" alt="">
+            </div>
+        </div>
+        <div id="modal-btn">
+            <button><i class="fas fa-arrow-left" id="modal-btn-prev"></i></button>
+            <button><i class="fas fa-arrow-right" id="modal-btn-next"></i></button>
+        </div>
+    </div>
+    </section>
+
+    <footer>
+        <a id="link-home" href="index.html">GO BACK</a>
+        <div>
+            <div id="contact-info">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <p>frida@kahlo.com</p>
+            </div>
+            <p>Web design & Content: <a href="https://www.linkedin.com/in/camilascalzo/" target="_blank">Camila Scalzo</a> </p>
+        </div>
+        
+    </footer>
+
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
